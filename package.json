@@ -1,0 +1,25 @@
+{
+  "name": "Javascript-Basic-Algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha $(find test -name '*.spec.js')",
+    "coverage": "nyc npm run test",
+    "coverage:html": "nyc --reporter=html npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^15.1.0",
+    "sinon-chai": "^3.7.0"
+  }
+}
